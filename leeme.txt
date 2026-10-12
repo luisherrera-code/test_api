@@ -1,0 +1,18 @@
+herd php artisan install:api
+
+herd php artisan make:model Contacto -c --api
+
+herd php artisan config:publish cors
+
+2 - subir a GitHub
+git init
+
+git branch -m main
+
+git add .
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/luisherrera-code/test_api.git
+
+git push -u origin main
