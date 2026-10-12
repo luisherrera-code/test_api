@@ -16,3 +16,20 @@ git commit -m "first commit"
 git remote add origin https://github.com/luisherrera-code/test_api.git
 
 git push -u origin main
+
+3- preparar para render
+
+test_api/
+├── app/
+├── bootstrap/
+├── config/
+├── docker/
+│   └── nginx.conf          <-- Aquí va el archivo de Nginx
+├── public/
+├── scripts/
+│   └── 00-laravel-deploy.sh <-- AQUÍ va tu script de despliegue
+├── storage/
+├── .dockerignore           <-- Aquí va tu archivo ignore
+├── Dockerfile              <-- Aquí va tu Dockerfile
+└── ... (resto de archivos de Laravel)
+
